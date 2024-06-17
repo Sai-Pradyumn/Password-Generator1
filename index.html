@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container utility-col">
+
+        <input class="output-generated" id="output" type="text" name="" placeholder="Click generate button" >
+
+        <div class="giving-range utility-row">
+            <input type="range" id="rangee" name="" min="1" max="30" value="8" >
+            <p id="slider-value">8</p>
+        </div>
+
+
+        <div class="requests utility-col">
+            <h1>Include:</h1>
+            <div class="inputs utility-row">
+                <input type="checkbox" id="number">
+                <label for="number">Numbers (0-9)</label>
+            </div>
+            <div class="inputs utility-row">
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">Uppercase Letters (A-Z) </label>
+            </div>
+            <div class="inputs utility-row">
+                <input type="checkbox" id="lowercase">
+                <label for="lowercase">Lowercase Letters (a-z) </label>
+            </div>
+            <div class="inputs utility-row">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Symbols (@-*) </label>
+            </div>
+        </div>
+
+        <p id="empty"></p>
+
+        <div class="buttons utility-row">
+            <!-- <button class="utility-col regenerate">Regenerate</button> -->
+            <button class="utility-col generate">Generate Password</button>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

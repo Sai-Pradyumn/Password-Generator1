@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;   
+    flex-wrap: wrap;
+    /* filter: invert(1);  */
+}
+
+
+.utility-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.utility-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 20px;
+    /* background-color: #f0f8ff; */
+    border: 1.5px solid rgba(0,0,0,.5);
+    background-image: url('assets/nicebg.png');
+    border-radius: 20px;
+    background-size: cover;
+    /* filter: invert(1); */
+    /* color: rgba(255,255,255,.7); */
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.output-generated{
+    border: 1.5px solid rgba(0,0,0,.6);
+    outline: none;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px 10px;
+}
+
+.giving-range input{
+    width: 90%;
+    /* height: 5px; */
+    color: rgba(0,0,0,.7);
+    outline: 0 0 1px 1px rgba(0,0,0,.6);
+    margin: 7px 7px 7px 4px;
+}
+
+.giving-range p{
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.requests{
+    color: rgba(0,0,0,.7);
+    padding: 20px;
+    width: 90%;
+    align-items: flex-start;
+    /* justify-content: start; */
+    margin: 10px;
+    text-align: left;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,.4);
+    outline: none;
+    background-color: #fff;
+    flex-wrap: wrap;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
+
+}
+
+h1{
+    font-size: 20px;
+    text-decoration: .5px dotted underline;
+    margin-bottom: 5px;
+    /* text-decoration-style: ; */
+}
+
+.inputs{
+    font-size: 15px;
+    margin: 0 10px 0 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.inputs input{
+    font-size: 23px;
+    accent-color: rgba(0,0,0,.5);
+    margin: 5px 10px 0 0;
+}
+
+.inputs label{
+    font-size: 15px;
+    margin: 5px 0 0 0 ;
+}
+
+/* .inputs input:active{
+    text-decoration: overline;
+} */
+
+#empty{
+    color: rgba(255, 0, 0, 0.793);
+    width: 70%;
+    font-size: 14px;
+}
+
+
+.buttons{
+    width: 100%;
+}
+
+.buttons button{
+    font-size: 15px;
+    /* padding: 20px; */
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    outline: none;
+    border: 1.5px solid rgba(0,0,0,.5);
+    transition: all .5s;
+    color: rgba(0,0,0,.9);
+    /* background-color: rgba(255,255,255,.3); */
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,.2);
+}
+
+.buttons button:hover{
+    /* filter: invert(1); */
+    background-color: rgba(0,0,0,.3);
+    color: rgba(255,255,255,1);
+}
+
+.buttons button:active{
+    /* transform: scaleY(1.2); */
+    transform: translateY(2px);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+}
